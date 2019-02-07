@@ -1,5 +1,8 @@
 # uiza.io-docs
 
 ## Installation
-- `yarn` or `npm install`
+- `yarn` (preferred) or `npm install`
 - `yarn run docs:dev` or `npm run docs:dev`
+
+## Deploy
+- `sh deploy.sh`
