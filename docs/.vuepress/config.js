@@ -5,14 +5,25 @@ module.exports = {
     logo: "/assets/logo.png",
     sidebar: [
       {
-        title: "Welcome",
+        title: "API Reference",
         collapsable: false,
-        children: ["/"],
+        sidebarDepth: 2,
+        children: [
+          ["/api-reference/introduction", "Introduction"],
+          ["/api-reference/authentication", "Authentication"],
+        ],
       },
       {
-        title: "Guide",
+        title: "Player SDKs",
         collapsable: false,
-        children: ["/guide/"],
+        sidebarDepth: 2,
+        children: [
+          ["/player-sdks/website", "Website"],
+          ["/player-sdks/android", "Android"],
+          ["/player-sdks/ios", "iOS"],
+          ["/player-sdks/react-native", "React Native"],
+          ["/player-sdks/smart-tv", "Smart TV HTML5"],
+        ],
       },
     ],
   },
