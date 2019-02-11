@@ -1,6 +1,10 @@
 module.exports = {
   title: "documentation",
   description: "Uiza Player Documentation",
+  base: "/uiza.io-docs/",
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     logo: "/assets/logo.png",
     sidebar: [
@@ -17,7 +21,7 @@ module.exports = {
         title: "Player SDKs",
         collapsable: false,
         sidebarDepth: 2,
-        children: [
+        children: [          
           ["/player-sdks/website", "Website"],
           ["/player-sdks/android", "Android"],
           ["/player-sdks/ios", "iOS"],
