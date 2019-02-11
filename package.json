@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "NODE_ENV=development vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
