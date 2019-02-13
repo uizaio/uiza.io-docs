@@ -6,6 +6,8 @@ module.exports = {
     lineNumbers: true,
     config: md => {
       md.use(require('markdown-it-include'), './docs');
+      const vuepressTabs = require('vuepress-tabs');
+      vuepressTabs(md);
     }
   },
   themeConfig: {
