@@ -1,1 +1,0 @@
-# Smart TV HTML5 SDK
