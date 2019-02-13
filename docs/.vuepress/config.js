@@ -3,7 +3,10 @@ module.exports = {
   description: "Uiza Documentation",
   base: process.env.NODE_ENV === "development" ? "" : "/uiza.io-docs/",
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    config: md => {
+      md.use(require('markdown-it-include'), './docs');
+    }
   },
   themeConfig: {
     logo: "/assets/logo.png",
@@ -11,7 +14,7 @@ module.exports = {
       {
         title: "Player SDKs",
         collapsable: false,
-        sidebarDepth: 1,
+        sidebarDepth: 2,
         children: [
           ["/player-sdks/tutorial/", "Tutorial"],
           ["/player-sdks/playback-api/", "Playback API"],
