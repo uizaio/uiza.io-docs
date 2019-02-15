@@ -165,61 +165,65 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 ::: tab Android
 ### 3.2.5 (2019-1-28)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.2.5'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.2.5'
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.2.5'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.2.5'
+```
 
 - UZVideo removed onStart() and onStop().
 - Optimize mini player.
 - Optimize Muiza tracking.
 
 ### 3.2.3 (2019-1-18)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.2.3'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.2.3'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.2.3'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.2.3'
+```
 - Update icon launcher.
 - Iplm ping HeartBeat.
 - Add func [set size](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/fb/MiniPlayerSettingActivity.java#L319) of mini player.
 - Add func make mini player [appear/disappear](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/fb/MiniPlayerSettingActivity.java#L241)
 - Add func make mini player switch to full-player by [tapping.](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/fb/MiniPlayerSettingActivity.java#L255)
 ### 3.1.9 (2019-1-14)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.1.9'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.1.9'
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.1.9'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.1.9'
+```
 
 - Add func uzLivestream.stopPreview();
 - Add UZAPIMaster.
 - Remove BaseActivity and BaseFragment, use AppCompatActivity and Fragment instead.
 - Fixed bug divide by zero.
 ### 3.1.1 (2019-1-4)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.1.1'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.1.1'
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.1.1'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.1.1'
+```
 
 - Add first position config for mini player, check [here](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/fb/MiniPlayerSettingActivity.java#L230).
 - Add func set property margin for mini player, check [here](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/fb/MiniPlayerSettingActivity.java#L243).
 - Add func control mini player, check [here](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/fb/MiniPlayerSettingActivity.java).
 
 ### 3.0.8 (2018-12-27)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.0.8'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.0.8'
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.0.8'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.0.8'
+```
 
 - Update logic livestreaming.
 - Add permission draw over other app for mini player.
@@ -232,24 +236,24 @@ player.loadConfigId(configId: [CONFIG_ID])
 - Update screen EventActivity help you understand how to use func [uzVideo.addUZLiveContentCallback()](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/event/EventActivity.java#L331).
 
 ### 3.0.3 (2018-12-19)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.0.3'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.0.3'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.0.3'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.0.3'
+```
 - Update UZLivestream view.
 - Add sample [landscape live broadcaster](https://github.com/uizaio/uiza-android-sdk-player/blob/master/samplelivestream/src/main/java/test/loitp/samplelivestream/LiveLandscapeActivity.java).
 
 ### 3.0.0 (2018-12-17)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.0.0'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.0.0'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.0.0'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.0.0'
+```
 - Remove white space when using floating player.
 - Update [CustomSkinCodeUZTimebarUTubeWithSlideActivity](https://github.com/uizaio/uiza-android-sdk-player/blob/dev/sample/src/main/java/testlibuiza/sample/v3/utube/CustomSkinCodeUZTimebarUTubeWithSlideActivity.java).
 - Add feature [mini player like Facebook]()https://github.com/uizaio/uiza-android-sdk-player/blob/dev/sample/src/main/java/testlibuiza/sample/v3/fb/FBVideoActivity.java).
@@ -257,13 +261,13 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 
 ### 2.9.8 (2018-12-10)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.8'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.8'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.8'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.8'
+```
 - Change function name uzVideo.setVideoListener() -> uzVideo.addVideoListener().
 - Update [screen](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/utube/CustomSkinCodeUZTimebarUTubeActivity.java) custom UI like Youtube without sliding.
 - Add [sample](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/utube/CustomSkinCodeUZTimebarUTubeWithSlideActivity.java) custom UI like Youtube with UZTimebar and DraggablePanel. 
@@ -271,24 +275,24 @@ player.loadConfigId(configId: [CONFIG_ID])
 - Update screen [CustomHQActivity](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/customhq/CustomHQActivity.java).
 
 ### 2.9.5 (2018-12-5)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.5'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.5'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.5'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.5'
+```
 - Fixed auto screen rotation.
 
 
 ### 2.9.3 (2018-12-3)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.3'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.3'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.3'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.3'
+```
 - Change id of some components (exo_position -> uz_position, exo_duration -> uz_duration).
 - Removed unused resources.
 - Iplm DVR, Timeshift (The UZTimebar will be display, user  can seeks in live HLS content).
@@ -296,13 +300,13 @@ player.loadConfigId(configId: [CONFIG_ID])
 - Fixed uzLivestreamCallback isInitResult() is called more times.
 
 ### 2.9.1 (2018-11-30)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.1'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.1'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.9.1'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.9.1'
+```
 - Add func getVideoFormat().
 - Add func getAudioFormat().
 - Add func getVideoProfileH().
@@ -316,37 +320,37 @@ player.loadConfigId(configId: [CONFIG_ID])
 - Iplm DRM fearture.
 
 ### 2.8.8 (2018-11-19)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.8'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.8'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.8'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.8'
+```
 - Update sample customize skin like [Youtube](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/customskin/CustomSkinCodeUZTimebarUTubeActivity.java).
 - Add func `uzVideo.addCallbackUZTimebar();`
 - Remove some uzLivestreamCallback in `UZCallback` such as `onClickBack`,  `onClickListEntityRelation`,   `onClickPip`. Use this func `addItemClick();` instead.
 - Ex:
 - 
-
-    @Override  
-    public void onItemClick(View view) {  
-        switch (view.getId()) {  
-            case R.id.exo_back_screen:  
-                //onClick exo_back_screen
-                break;  
-        }  
-    }
-
+```java
+@Override  
+public void onItemClick(View view) {  
+    switch (view.getId()) {  
+        case R.id.exo_back_screen:  
+            //onClick exo_back_screen
+            break;  
+    }  
+}
+```
 
 ### 2.8.6 (2018-11-16)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.6'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.6'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.6'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.6'
+```
 - Add func `addAudioListener();`
 - Add sample help you know how to listen all event of SDK, [sample here](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/event/EventActivity.java).
 - Update some methods name:
@@ -359,13 +363,13 @@ player.loadConfigId(configId: [CONFIG_ID])
 - Update sample how to customize skin like [Youtube player](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/customskin/CustomSkinCodeUZTimebarUTubeActivity.java).
 
 ### 2.8.2 (2018-11-14)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.2'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.2'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.2'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.2'
+```
 - Update default skin.
 - Update UI state of `ibRewIcon`, `ibFfwdIcon`.
 - Add func let you can set speed of player `uzVideo.setSpeed(value);`
@@ -374,13 +378,13 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 
 ### 2.8.0 (2018-11-12)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.0'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.0'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.8.0'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.8.0'
+```
 - Fixed onFocusChange for AndroidTV, AndroidBox.
 - Add func `getHeightUZVideo()` of uzVideo.
 - Update sample TV with custom HQ, custom audio view.
@@ -388,13 +392,13 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 
 ### 2.7.8 (2018-11-09)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.8'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.8'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.8'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.8'
+```
 - Now you can put the UZTimebar on the bottom of the video view, please check this [sample](https://github.com/uizaio/uiza-android-sdk-player/blob/master/sample/src/main/java/testlibuiza/sample/v3/customskin/CustomSkinCodeUZTimebarActivity.java) for more details.
 - Fixed func volume toggle.
 - Add `onScreenRotate()` in UZCallback.
@@ -407,55 +411,58 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 
 ### 2.7.4 (2018-11-03)
-
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.4'
-         
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.4'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.4'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.4'
+```
 - Update func `uzVideo.setProgressCallback(...);`
 - Add feature play any custom linkplay (`uzVideo.initLinkPlay(...)`).
 - Solved https://github.com/uizaio/uiza-android-sdk-player/issues/47
 
 ### 2.7.3 (2018-11-01)
-
-	//for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.3'
-     
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.3'
-
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.3'
+  
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.3'
+```
 - Update runtime permission for UZLivestream.
 - Update error message and error code.
 - Update sample.
 
 ### 2.7.0 (2018-10-29)
+```java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.0'
 
-     //for playing video VOD, LIVE  
-     implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:2.7.0'
-     
-     //for live broadcaster  
-     implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.0'
-
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:2.7.0'
+```
 - Refactor all.
 
 ### 2.4.7 (2018-10-16)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.7'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.7'
+```
 - Update logic for Android TV.
 - Fixed bugs cannot touch controller components when replay the video.
 - Update clearly error message.
 
 ### 2.4.6 (2018-10-15)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.6'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.6'
+```
 - Customize skin for Android TV.
 - Update module sampletv.
 
 ### 2.4.5 (2018-10-12)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.5'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.5'
+```
 - Support IMA Ads.
 - Support [SnappySmoothScroller](https://github.com/nshmura/SnappySmoothScroller
 ).
@@ -464,33 +471,38 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 
 ### 2.4.3 (2018-10-05)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.3'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.3'
+```
 - Fixed issue controller playback.
 
 
 ### 2.4.2 (2018-10-02)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.2'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.4.2'
+```
 - Fixed mute function.
 - Fixed issue controller show time out.
 
 ### 2.3.9 (2018-10-02)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.9'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.9'
+```
 - Add more API for UZVideo.
 - Improve performance.
 
 
 ### 2.3.6 (2018-09-28)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.6'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.6'
+```
 - Add sample custom skin via using code.
 - Add more API for UZVideo.
 
 ### 2.3.5 (2018-09-27)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.5'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.5'
+```
 
 **New Features**
 - Support Android TV now (check sample AndroidTV)
@@ -501,8 +513,9 @@ player.loadConfigId(configId: [CONFIG_ID])
 
 
 ### 2.3.2 (2018-09-17)
-
-    implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.2'
+```java
+implementation 'com.github.uizaio:uiza-android-sdk-player:2.3.2'
+```
 
 **New Features**
 - Support vector drawable resources for UZImageButton.
