@@ -26,10 +26,10 @@ Ads content
 ```
 :::
 
-::: tab "HTML5 Smart TV"
+::: tab "Smart TV HTML5"
 ``` javascript
 () => {
-  console.log('HTML5 Smart TV code example')
+  console.log('Smart TV HTML5 code example')
 }
 ```
 :::
@@ -37,7 +37,7 @@ Ads content
 ::: tab "React Native"
 ``` javascript
 () => {
-  console.log('HTML5 Smart TV code example')
+  console.log('React Native code example')
 }
 ```
 :::
