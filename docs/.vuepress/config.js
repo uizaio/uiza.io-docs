@@ -42,6 +42,17 @@ module.exports = {
           ["/api-reference/errors-code", "Errors Code"],
         ],
       },
+      {
+        title: "Guideline",
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          ["/guideline/authentication", "Authentication"],
+          ["/guideline/entity", "Entity"],
+          ["/guideline/live-streaming", "Live"],
+          ["/guideline/user-permisstion-group", "User & Permisstion Group"],
+        ],
+      },
     ],
   },
 };
