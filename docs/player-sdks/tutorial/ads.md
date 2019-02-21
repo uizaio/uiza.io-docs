@@ -4,41 +4,31 @@ Ads content
 
 ::: tab Website
 ``` javascript
-() => {
-  console.log('Website code example')
-}
+// javascript
 ```
 :::
 
 ::: tab iOS
-``` javascript
-() => {
-  console.log('iOS code example')
-}
+``` swift
+// swift
 ```
 :::
 
 ::: tab Android
-``` javascript
-() => {
-  console.log('Android code example')
-}
+``` java
+// java
 ```
 :::
 
 ::: tab "Smart TV HTML5"
 ``` javascript
-() => {
-  console.log('Smart TV HTML5 code example')
-}
+// javascript
 ```
 :::
 
 ::: tab "React Native"
 ``` javascript
-() => {
-  console.log('React Native code example')
-}
+// javascript
 ```
 :::
 
