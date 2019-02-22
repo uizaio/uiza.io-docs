@@ -12,47 +12,83 @@ module.exports = {
   },
   themeConfig: {
     logo: "/assets/logo.png",
-    sidebar: [
-      {
-        title: "Player SDKs",
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          ["/player-sdks/tutorial/", "Tutorial"],
-          ["/player-sdks/playback-api/", "Playback API"],
-          ["/player-sdks/supported-devices/", "Supported Devices"],
-          ["/player-sdks/release-notes/", "Release Notes"],
-        ],
-      },
-      {
-        title: "API Reference",
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          ["/api-reference/introduction", "Introduction"],
-          ["/api-reference/authentication", "Authentication"],
-          ["/api-reference/user-managerment", "User Managerment"],
-          ["/api-reference/entity", "Entity"],
-          ["/api-reference/category", "Category"],
-          ["/api-reference/storage", "Storage"],
-          ["/api-reference/live-streaming", "Live Streaming"],
-          ["/api-reference/callback", "Callback"],
-          ["/api-reference/analytic", "Analytic"],
-          ["/api-reference/embed-metadata", "Embed Metadata"],
-          ["/api-reference/errors-code", "Errors Code"],
-        ],
-      },
-      {
-        title: "Guideline",
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          ["/guideline/authentication", "Authentication"],
-          ["/guideline/entity", "Entity"],
-          ["/guideline/live-streaming", "Live"],
-          ["/guideline/user-permisstion-group", "User & Permisstion Group"],
-        ],
-      },
-    ],
+    sidebar: {
+      '/': [
+        '/',
+        {
+          title: "Player SDKs",
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            ["/player-sdks/tutorial/", "Tutorial"],
+            ["/player-sdks/playback-api/", "Playback API"],
+            ["/player-sdks/supported-devices/", "Supported Devices"],
+            ["/player-sdks/release-notes/", "Release Notes"],
+          ],
+        },
+        {
+          title: "Guideline",
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            ["/guideline/authentication", "Authentication"],
+            ["/guideline/entity", "Entity"],
+            ["/guideline/live-streaming", "Live"],
+            ["/guideline/user-permisstion-group", "User & Permisstion Group"],
+          ],
+        },
+        {
+          title: "API Reference",
+          path: 'http://google.com',      // optional, which should be a absolute path.
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            ['http://google.com', 'GG']
+          ]
+        }
+      ]
+    }
+    // sidebar: [
+    //   {
+    //     title: "Player SDKs",
+    //     collapsable: false,
+    //     sidebarDepth: 2,
+    //     children: [
+    //       ["/player-sdks/tutorial/", "Tutorial"],
+    //       ["/player-sdks/playback-api/", "Playback API"],
+    //       ["/player-sdks/supported-devices/", "Supported Devices"],
+    //       ["/player-sdks/release-notes/", "Release Notes"],
+    //     ],
+    //   },
+    //   {
+    //     title: "API Reference",
+    //     collapsable: false,
+    //     sidebarDepth: 2,
+    //     children: [
+    //       ["/api-reference/introduction", "Introduction"],
+    //       ["/api-reference/authentication", "Authentication"],
+    //       ["/api-reference/user-managerment", "User Managerment"],
+    //       ["/api-reference/entity", "Entity"],
+    //       ["/api-reference/category", "Category"],
+    //       ["/api-reference/storage", "Storage"],
+    //       ["/api-reference/live-streaming", "Live Streaming"],
+    //       ["/api-reference/callback", "Callback"],
+    //       ["/api-reference/analytic", "Analytic"],
+    //       ["/api-reference/embed-metadata", "Embed Metadata"],
+    //       ["/api-reference/errors-code", "Errors Code"],
+    //     ],
+    //   },
+    //   {
+    //     title: "Guideline",
+    //     collapsable: false,
+    //     sidebarDepth: 2,
+    //     children: [
+    //       ["/guideline/authentication", "Authentication"],
+    //       ["/guideline/entity", "Entity"],
+    //       ["/guideline/live-streaming", "Live"],
+    //       ["/guideline/user-permisstion-group", "User & Permisstion Group"],
+    //     ],
+    //   },
+    // ],
   },
 };
