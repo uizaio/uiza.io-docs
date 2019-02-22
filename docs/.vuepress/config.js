@@ -36,15 +36,6 @@ module.exports = {
             ["/guideline/live-streaming", "Live"],
             ["/guideline/user-permisstion-group", "User & Permisstion Group"],
           ],
-        },
-        {
-          title: "API Reference",
-          path: 'http://google.com',      // optional, which should be a absolute path.
-          collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1
-          children: [
-            ['http://google.com', 'GG']
-          ]
         }
       ]
     }
