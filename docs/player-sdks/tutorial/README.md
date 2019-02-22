@@ -1,13 +1,82 @@
 # Tutorial
 
-## Ads
-  !!!include(player-sdks/tutorial/ads.md)!!!
+<!-- ## Ads -->
+  <!-- include(player-sdks/tutorial/ads.md) -->
+  <!-- :::: tabs :options="{ useUrlFragment: false }"
+
+  ::: tab Website
+  !!!include(player-sdks/tutorial/ads/content-website.md)!!!
+  :::
+
+  ::: tab iOS
+  !!!include(player-sdks/tutorial/ads/content-ios.md)!!!
+  :::
+
+  ::: tab Android
+  !!!include(player-sdks/tutorial/ads/content-android.md)!!!
+  :::
+
+  ::: tab "Smart TV HTML5"
+  !!!include(player-sdks/tutorial/ads/content-smart-tv-html5.md)!!!
+  :::
+
+  ::: tab "React Native"
+  !!!include(player-sdks/tutorial/ads/content-react-native.md)!!!
+  :::
+
+  :::: -->
 
 ## Autoplay
-  !!!include(player-sdks/tutorial/autoplay.md)!!!
+  <!-- include(player-sdks/tutorial/autoplay.md) -->
+  :::: tabs :options="{ useUrlFragment: false }"
+
+  ::: tab Website
+  !!!include(player-sdks/tutorial/autoplay/content-website.md)!!!
+  :::
+
+  ::: tab iOS
+  !!!include(player-sdks/tutorial/autoplay/content-ios.md)!!!
+  :::
+
+  ::: tab Android
+  !!!include(player-sdks/tutorial/autoplay/content-android.md)!!!
+  :::
+
+  ::: tab "Smart TV HTML5"
+  !!!include(player-sdks/tutorial/autoplay/content-smart-tv-html5.md)!!!
+  :::
+
+  ::: tab "React Native"
+  !!!include(player-sdks/tutorial/autoplay/content-react-native.md)!!!
+  :::
+
+  ::::
 
 ## Custom UI
-  !!!include(player-sdks/tutorial/custom-ui.md)!!!
+  <!-- include(player-sdks/tutorial/custom-ui.md) -->
+  :::: tabs :options="{ useUrlFragment: false }"
+
+  ::: tab Website
+  !!!include(player-sdks/tutorial/custom-ui/content-website.md)!!!
+  :::
+
+  ::: tab iOS
+  !!!include(player-sdks/tutorial/custom-ui/content-ios.md)!!!
+  :::
+
+  ::: tab Android
+  !!!include(player-sdks/tutorial/custom-ui/content-android.md)!!!
+  :::
+
+  ::: tab "Smart TV HTML5"
+  !!!include(player-sdks/tutorial/custom-ui/content-smart-tv-html5.md)!!!
+  :::
+
+  ::: tab "React Native"
+  !!!include(player-sdks/tutorial/custom-ui/content-react-native.md)!!!
+  :::
+
+  ::::
 
 ## How To Play
   <!-- include(player-sdks/tutorial/how-to-play/README.md) -->
