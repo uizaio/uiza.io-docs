@@ -34,7 +34,7 @@ module.exports = {
             ["/guideline/authentication", "Authentication"],
             ["/guideline/entity", "Entity"],
             ["/guideline/live-streaming", "Live"],
-            ["/guideline/user-permisstion-group", "User & Permisstion Group"],
+            ["/guideline/permisstion", "Permission"],
           ],
         }
       ]
