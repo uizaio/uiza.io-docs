@@ -1,3 +1,3 @@
 ``` javascript
-// javascript
+// Unsupported UI
 ```
