@@ -1,8 +1,8 @@
 # Tutorial
 
-<!-- ## Ads -->
+## Ads
   <!-- include(player-sdks/tutorial/ads.md) -->
-  <!-- :::: tabs :options="{ useUrlFragment: false }"
+  :::: tabs :options="{ useUrlFragment: false }"
 
   ::: tab Website
   !!!include(player-sdks/tutorial/ads/content-website.md)!!!
@@ -24,7 +24,7 @@
   !!!include(player-sdks/tutorial/ads/content-react-native.md)!!!
   :::
 
-  :::: -->
+  ::::
 
 ## Autoplay
   <!-- include(player-sdks/tutorial/autoplay.md) -->

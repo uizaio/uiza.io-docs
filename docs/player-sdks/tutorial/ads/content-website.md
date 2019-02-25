@@ -1,5 +1,7 @@
 ``` javascript
-// Custom ads
+// Use configuration from the dashboard
+
+// And custom ads:
 var options = {
   ads: [
     {
