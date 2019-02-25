@@ -15,6 +15,9 @@ module.exports = {
     sidebar: {
       '/': [
         '/',
+        // '/quick-start',
+        '/authentication',
+        '/sdk-installation',
         {
           title: "Player SDKs",
           collapsable: false,
