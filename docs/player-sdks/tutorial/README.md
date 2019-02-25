@@ -27,6 +27,21 @@
   ::::
 
 ## Autoplay
+  #### Autoplay (ONLY for website)
+  Most mobile devices have blocked autoplaying videos until recently.
+  For mobile devices that don't support autoplaying, autoplay isn't supported by Uiza Player.
+  For those devices that support autoplaying, like iOS10 and Chrome for Android 53+, you must mute the video or have a video without audio tracks to be able to play it.
+
+  Safari 11 on macOS and iOS, as well as Chrome for Desktop (62+) and Mobile are going to introduce a new auto-play policy.
+  The main goal is to improve their user’s browsing experience, by eliminating distractions and surprising media playbacks of unmuted content, and provide them with more control over the autoplay capabilities for individual websites. Additional options are available in the respective website preferences pane to allow or disable autoplay, disable audio in general or more.
+  In addition to that, both browsers are going to introduce an automated approach, which decides if auto-play will be blocked for media elements with sound in general or if auto-play is disabled at all.
+  For this devices that support autoplaying, you must mute the video or have a video without audio tracks to be able to play it.
+
+  #### How to do it
+    Step 1: Set volume to muted
+    Step 2: Set autoplay to true
+  
+  #### Sample
   <!-- include(player-sdks/tutorial/autoplay.md) -->
   :::: tabs :options="{ useUrlFragment: false }"
 
