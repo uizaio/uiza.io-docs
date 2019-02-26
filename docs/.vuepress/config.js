@@ -12,11 +12,17 @@ module.exports = {
   },
   themeConfig: {
     logo: "/assets/logo.png",
+    nav: [
+      {
+        text: 'API Reference',
+        link: 'https://docs.uiza.io/api/'
+      }
+    ],
     sidebar: {
       '/': [
         '/',
         '/authentication',
-        '/sdk-installation',
+        '/player-sdks-installation',
         {
           title: "Player SDKs",
           collapsable: false,
@@ -40,47 +46,5 @@ module.exports = {
         }
       ]
     }
-    // sidebar: [
-    //   {
-    //     title: "Player SDKs",
-    //     collapsable: false,
-    //     sidebarDepth: 2,
-    //     children: [
-    //       ["/player-sdks/tutorial/", "Tutorial"],
-    //       ["/player-sdks/playback-api/", "Playback API"],
-    //       ["/player-sdks/supported-devices/", "Supported Devices"],
-    //       ["/player-sdks/release-notes/", "Release Notes"],
-    //     ],
-    //   },
-    //   {
-    //     title: "API Reference",
-    //     collapsable: false,
-    //     sidebarDepth: 2,
-    //     children: [
-    //       ["/api-reference/introduction", "Introduction"],
-    //       ["/api-reference/authentication", "Authentication"],
-    //       ["/api-reference/user-managerment", "User Managerment"],
-    //       ["/api-reference/entity", "Entity"],
-    //       ["/api-reference/category", "Category"],
-    //       ["/api-reference/storage", "Storage"],
-    //       ["/api-reference/live-streaming", "Live Streaming"],
-    //       ["/api-reference/callback", "Callback"],
-    //       ["/api-reference/analytic", "Analytic"],
-    //       ["/api-reference/embed-metadata", "Embed Metadata"],
-    //       ["/api-reference/errors-code", "Errors Code"],
-    //     ],
-    //   },
-    //   {
-    //     title: "Guideline",
-    //     collapsable: false,
-    //     sidebarDepth: 2,
-    //     children: [
-    //       ["/guideline/authentication", "Authentication"],
-    //       ["/guideline/entity", "Entity"],
-    //       ["/guideline/live-streaming", "Live"],
-    //       ["/guideline/user-permisstion-group", "User & Permisstion Group"],
-    //     ],
-    //   },
-    // ],
   },
 };
