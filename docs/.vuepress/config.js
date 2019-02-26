@@ -15,7 +15,6 @@ module.exports = {
     sidebar: {
       '/': [
         '/',
-        // '/quick-start',
         '/authentication',
         '/sdk-installation',
         {
@@ -34,7 +33,6 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 2,
           children: [
-            ["/guideline/authentication", "Authentication"],
             ["/guideline/entity", "Entity"],
             ["/guideline/live-streaming", "Live"],
             ["/guideline/permisstion", "Permission"],
