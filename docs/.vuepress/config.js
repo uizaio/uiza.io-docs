@@ -14,6 +14,7 @@ module.exports = {
     ['link', { rel: 'shortcut icon', type: 'image/png', href: '/assets/fav.png' }]
   ],
   themeConfig: {
+    displayAllHeaders: true,
     logo: "/assets/logo.png",
     nav: [
       {
@@ -25,12 +26,12 @@ module.exports = {
       '/': [
         '/',
         '/authentication',
-        '/player-sdks-installation',
         {
           title: "Player SDKs",
           collapsable: false,
           sidebarDepth: 2,
           children: [
+            ["/player-sdks/installation", "Installation"],
             ["/player-sdks/tutorial/", "Tutorial"],
             ["/player-sdks/playback-api/", "Playback API"],
             ["/player-sdks/supported-devices/", "Supported Devices"],

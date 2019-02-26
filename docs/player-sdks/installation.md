@@ -1,4 +1,4 @@
-# Player SDKs Installation
+# Installation
 ### Install (ONLY for iOS & Android)
 :::: tabs :options="{ useUrlFragment: false }"
 

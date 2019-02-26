@@ -1,7 +1,7 @@
-# Quick Start
-### Introduction
+# Introduction
 The UIZA SDKs help you quickly and efficiently respond to all applications request types in real time. Our SDK provides you with various methods for initializing, configuring and building video player function from the client side. No server side implementation is required because the SDK is provided by our reliable infra-management service. This section presents a brief overview of the structure and capabilities of the SDK, and then allows you to take the preliminary steps to implement the SDK in your own client application.
-<hr>
+
+-----
 ### How Uiza works in video streaming
 #### Video-on-demand
 Engage your customers and community by videos delivered in your own Player. UIZA offers methods to customize your Player, improve your Branding, as well as delivery full-featured video-on-demand in a snap. User now can create Video Player with your own brand identities to maximize recognition.
@@ -17,7 +17,8 @@ Uiza transcodes your videos at the same time you are uploading them to minimize 
 
 `Try Now`
 [SDK Installation Guide →](/player-sdks-installation.html)
-<hr>
+
+-----
 #### Live Streaming Solution
 UIZA live streaming solution engineered for maximum scalability. Live streaming is 3 times more engaging that pre-recorded videos. We hope to deliver the same smooth live experience to each one of your users without worrying about crashing when the traffic spikes. Uiza's Live streaming features simplify integrations and offer seamless workflow for you and seamless experience for your users. Furthermore, Uiza's simple APIs, SDKs and straight-forward documentations and tutorials help you integrate and start streaming within hours, not days.
 We aim to deliver the best experience to your users' devices including PCs, iOS, Android, Smart TV and more with live video encoding and adaptive bitrate. Also, your Live stream events could be recorded and published right after your live sessions end.
