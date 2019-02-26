@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Uiza Documentation",
-  description: "Uiza Documentation",
+  title: "Docs",
+  description: "Docs",
   base: process.env.NODE_ENV === "development" ? "" : "/uiza.io-docs/",
   markdown: {
     lineNumbers: true,
@@ -10,6 +10,9 @@ module.exports = {
       vuepressTabs(md);
     }
   },
+  head: [
+    ['link', { rel: 'shortcut icon', type: 'image/png', href: '/assets/fav.png' }]
+  ],
   themeConfig: {
     logo: "/assets/logo.png",
     nav: [
@@ -34,16 +37,16 @@ module.exports = {
             ["/player-sdks/release-notes/", "Release Notes"],
           ],
         },
-        {
-          title: "Guideline",
-          collapsable: false,
-          sidebarDepth: 2,
-          children: [
-            ["/guideline/entity", "Entity"],
-            ["/guideline/live-streaming", "Live"],
-            ["/guideline/permisstion", "Permission"],
-          ],
-        }
+        // {
+        //   title: "Guideline",
+        //   collapsable: false,
+        //   sidebarDepth: 2,
+        //   children: [
+        //     ["/guideline/entity", "Entity"],
+        //     ["/guideline/live-streaming", "Live"],
+        //     ["/guideline/permisstion", "Permission"],
+        //   ],
+        // }
       ]
     }
   },
