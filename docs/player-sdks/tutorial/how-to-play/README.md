@@ -32,7 +32,7 @@
 :::
 
 ::: tab iOS
-!!!include(player-sdks/tutorial/how-to-play/content-vod-android.md)!!!
+!!!include(player-sdks/tutorial/how-to-play/content-vod-ios.md)!!!
 :::
 
 ::: tab Android
