@@ -19,7 +19,7 @@ Playback API on [Github](https://uizaio.github.io/uiza-android-sdk-player/)
 :::
 
 ::: tab "React Native"
-Updating......
+Updating...
 :::
 
 ::::
