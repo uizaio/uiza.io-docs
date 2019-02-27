@@ -1,3 +1,14 @@
+### 3.2.8 (2019-2-25)
+``` java
+//for playing video VOD, LIVE  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:3.2.8'
+      
+//for live broadcaster  
+implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:3.2.8'
+```
+- Added live tracking.
+- Fixed error cannot play on Android 9.
+
 ### 3.2.5 (2019-1-28)
 ```java
 //for playing video VOD, LIVE  

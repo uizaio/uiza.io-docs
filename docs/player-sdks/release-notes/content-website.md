@@ -1,9 +1,12 @@
-### 3.1.3 (2019-02-07)
-- Optimize analytics for live
+### 3.2.1 (2019-02-20)
+Optimize analytics for live
+
+### 3.2.0 (2019-02-12)
+Support DRM
 
 ### 3.1.2 (2019-01-16)
-- Optimize analytics
-- Fix click callback on mobile browser
+Optimize analytics
+Fix click callback on mobile browser
 
 ### 3.1.1 (2018-12-26)
 - Optimize analytics
