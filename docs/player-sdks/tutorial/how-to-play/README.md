@@ -1,4 +1,3 @@
-##### HTP
 <style>
   .glyphicon {
     position: relative;
