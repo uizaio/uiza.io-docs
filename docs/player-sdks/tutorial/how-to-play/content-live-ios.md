@@ -1,7 +1,9 @@
 Step 1. Installation
-``` swift
+``` ruby
 pod 'UizaSDK' // for iOS 10+
 pod 'UizaSDK_8' // for iOS 8,9
+```
+``` bash
 pod install
 ```
 

@@ -1,22 +1,22 @@
 Step 1. Add the JitPack repository to your build file:
 ``` java
 allprojects {
-      repositories {
-         maven { url 'https://jitpack.io' }
-      }
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
 }
 ```
 Step 2. Add the dependency
 ``` java
 defaultConfig {  
-    multiDexEnabled  true
+  multiDexEnabled  true
 }  
 dependencies {  
-    //for playing video VOD, LIVE  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:[lasted-release-number]'        
+  //for playing video VOD, LIVE  
+  implementation 'com.github.uizaio.uiza-android-sdk-player:uizacoresdk:[lasted-release-number]'        
 
-    //for live broadcaster  
-    implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:[lasted-release-number]'  
+  //for live broadcaster  
+  implementation 'com.github.uizaio.uiza-android-sdk-player:uizalivestream:[lasted-release-number]'  
 }
 ```
 Step 3. Init SDK:

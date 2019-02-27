@@ -1,3 +1,4 @@
+##### HTP
 <style>
   .glyphicon {
     position: relative;
@@ -32,7 +33,7 @@
 :::
 
 ::: tab iOS
-!!!include(player-sdks/tutorial/how-to-play/content-vod-ios.md)!!!
+!!!include(player-sdks/tutorial/how-to-play/content-vod-android.md)!!!
 :::
 
 ::: tab Android

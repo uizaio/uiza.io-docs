@@ -3,15 +3,11 @@
 :::: tabs :options="{ useUrlFragment: false }"
 
 ::: tab iOS
-``` swift
-// swift
-```
+  !!!include(player-sdks/installation/content-install-ios.md)!!!
 :::
 
 ::: tab Android
-``` java
-// java
-```
+  !!!include(player-sdks/installation/content-install-android.md)!!!
 :::
 
 ::::
@@ -20,15 +16,11 @@
 :::: tabs :options="{ useUrlFragment: false }"
 
 ::: tab iOS
-``` swift
-// swift
-```
+  !!!include(player-sdks/installation/content-init-ios.md)!!!
 :::
 
 ::: tab Android
-``` java
-// java
-```
+  !!!include(player-sdks/installation/content-init-android.md)!!!
 :::
 
 ::::
