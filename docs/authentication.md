@@ -25,7 +25,7 @@ By using UIZA Platform API, developers can access along with their own access to
 > <b>Note 1:</b> You are able to management token key for each individual in your dashboard
 <b>Dashboard > Application Settings > Publish API</b>
 
-```
+``` bash
 //Access token used for Authorization
 curl -X GET \
   https://#{workspace_api_domain}/api/public/v3/media/entity?id=16ab25d3-fd0f-4568-8aa0-0339bbfd674f \
